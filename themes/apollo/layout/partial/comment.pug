@@ -1,0 +1,13 @@
+#gitalk-container
+  
+script.
+  var gitalk = new Gitalk({
+    clientID: 'fbd4b507ea18cd5ae5f9',
+    clientSecret: '4e811fc964953efd6df260269f80e94db93f8a2c',
+    id: window.location.pathname,
+    repo: 'hexo-demo.github.io',
+    owner: 'hexo-demo',
+    admin: ['hexo-demo'],
+    distractionFreeMode: false
+  })
+  gitalk.render('gitalk-container')
